@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #242424;
+  display: flex;
+  justify-content: center;
+}
+
+.h1__inner {
+  color: white;
+  font-size: 3rem;
+  margin-top: 4rem;
+  margin-left: 2rem;
+}
+
+.rock {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  position: absolute;
+  top: 220px;
+  left: 300px;
+  cursor: pointer;
+}
+
+.paper {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  position: absolute;
+  top: 220px;
+  left: 680px;
+  cursor: pointer;
+}
+
+.scissors {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  position: absolute;
+  top: 220px;
+  left: 1060px;
+  cursor: pointer;
+}
+
+.score {
+  color: white;
+}
+
+.your-score {
+  position: absolute;
+  left: 355px;
+  top: 500px;
+}
+.computer-score {
+  position: absolute;
+  right: 225px;
+  top: 500px;
+}
+
+.middle-text-son {
+  position: absolute;
+  top: 500px;
+  left: 670px;
+  color: white;
+}
+
+.left {
+  color: white;
+  position: absolute;
+  top: 590px;
+  left: 420px;
+}
+
+.right {
+  color: white;
+  position: absolute;
+  top: 590px;
+  right: 330px;
+}
+
+#result {
+  color: white;
+}
+
+#result2 {
+  color: white;
+}
+
+#center-container {
+  text-align: center;
+  position: absolute;
+  top: 530px;
+  margin-left: 90px;
+}
